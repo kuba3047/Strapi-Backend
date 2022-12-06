@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_scores",
+  "info": {
+    "singularName": "email-score",
+    "pluralName": "email-scores",
+    "displayName": "Email_Score",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_name": {
+      "type": "string",
+      "required": true
+    },
+    "points": {
+      "type": "integer",
+      "required": true
+    },
+    "user_email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

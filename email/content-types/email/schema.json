@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emails",
+  "info": {
+    "singularName": "email",
+    "pluralName": "emails",
+    "displayName": "Email",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sender": {
+      "type": "string",
+      "required": true
+    },
+    "sender_email": {
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    },
+    "attachment": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string",
+      "required": true
+    },
+    "hyperLink": {
+      "type": "string"
+    }
+  }
+}
